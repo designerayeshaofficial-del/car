@@ -1,0 +1,398 @@
+body{
+    background: #000;
+}
+.header{
+    display: inline-flex;
+    width: 100%;
+    background: #E5E7EB;
+}
+.logo{
+    margin-right: 120px;
+}
+.logo img{
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 90px;
+}
+.logo h3{
+    font-family: "Danfo", serif;
+    font-size: 30px;
+    margin-left: 105px;
+    color: #000;
+    margin-top: -78px;
+}
+.logo h4{
+    font-family: "Tapestry", serif;
+    margin-top: -38px;
+    margin-left: 92px;
+    letter-spacing: 2px;
+}
+
+
+.menubar{
+    display: inline-flex;
+    margin-left: 115px;
+}
+.menubar nav{}
+.menubar nav ul{padding-top: 10px;}
+.menubar nav ul li{
+    padding: 10px;
+    margin-right: -4px;
+    display: inline;
+}
+.menubar nav ul li a{
+    font-family: "Gelasio", serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DC2626;
+    padding: 3px;
+}
+.menubar nav ul li a:hover{
+    color: #E5E7EB;
+    background: #0F172A;
+}
+.menubar button{
+    
+    width: 225px;
+    padding: 10px;
+    color: #E5E7EB;
+    background: #DC2626;
+    border: none;
+    margin-top: 17px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-left: 15px;
+    height: 42px;
+    border: 2px solid #0F172A;
+}
+.menubar button:hover{
+    box-shadow: 2px 2px 5px #111827;
+    background: #0F172A;
+    color: #E5E7EB;
+    border: none;
+}
+
+.hero{
+    background: url(../images/hero.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    
+}
+.herocontant{}
+.herocontant h1{
+    font-family: "Tapestry", serif;
+    color: red;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 156px;
+    padding-top: 40px;
+}
+.herocontant h2{
+     font-family: "Arizonia", cursive;
+     margin-top: 0px;
+     color: #DC2626;
+     font-size: 45px;
+     margin-left: 32px;
+}
+.herocontant p{
+    font-family: "Agbalumo", system-ui;
+    text-align: justify;
+    width: 250px;
+    color: #fff;
+    margin-left: 175px;
+    margin-bottom: 32px;
+}
+.herocontant button{
+    font-family: "IBM Plex Serif", serif;
+    padding: 7px;
+    font-size: 16px;
+    margin-left: 35px;
+    width: 280px;
+    color: #E5E7EB;
+    background: #DC2626;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border: none;
+} 
+
+.herocontant button:hover{
+    box-shadow: 2px 2px 5px #DC2626;
+    background: transparent;
+    transition: 2s;
+}
+
+.title h1{
+    font-family: "Agbalumo", system-ui;
+    color: #E5E7EB;
+    background: #DC2626;
+    display: inline-block;
+    margin-left: 430px;
+    letter-spacing: 6px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.product{
+    display: inline-flex;
+    width: 100%;
+    padding: 0px;
+    background: #000;
+    margin: 0px;
+    padding-top: 35px;
+}
+.productcard{}
+.card{
+    width: 270px;
+    border-radius: 20px;
+    background: #DC2626;
+    padding: 20px;
+    margin-right: 75px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h1{
+    font-family: "Tapestry", serif;
+    margin: 0px;
+    font-size: 1.6vw;
+    color: #0F172A;
+}
+.card h2{
+     font-family: "Arizonia", cursive;
+     margin-top: -15px;
+     font-size: 2.3vw;
+     color: #0F172A;
+     margin-bottom: 0px;
+}
+.card h3{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 1vw;
+    margin-top: -6px;
+    margin-left: 174px;
+    letter-spacing: 8px;
+    color: #fff;
+}
+.card button{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    color: #fff;
+    box-shadow: 2px 2px 5px #000;
+    margin: 15px 0px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.card button:hover{
+    background: #111827;
+    color: #fff;
+    transition: 2s;
+}
+
+.slideshow{
+    width: 100%;
+}
+.slideshowcontent{width: 100%;background: #fff;}
+.banner{
+    background: url(../images/about\ us.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h2{
+    font-family: "Agbalumo", system-ui;
+    font-size: 4vw;
+    margin-bottom: 0px;
+    margin-left: 204px;
+    text-decoration: underline;
+}
+.banner p{
+    font-family: "Tapestry", serif;
+    color: #fff;
+    font-size: 1.6vw;
+    width: 50%;
+    margin-left: 60px;
+    padding-bottom: 50px;
+}
+
+.bannerr{
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    height: 300px;
+}
+.bannerr h2{
+    font-family: "Tapestry", serif;
+    font-size: 4vw;
+    margin-left: 365px;
+    padding-top: 30px;
+}
+.bannerrcard{
+    width: 145px;
+    display: inline-flex;
+    padding-left: 65px;
+    margin-right: 75px;
+    padding-bottom: 40px;
+}
+.bannerrcard img{
+    width: 100%;
+}
+.bannerrcard h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 2vw;
+    margin-top: 42px;
+}
+
+.brand{
+    width: 100%;
+    display: inline-flex;
+    padding-left: 25px;
+    height: 300px;
+}
+.nam h2{
+    font-family: "Tapestry", serif;
+    font-size: 3vw;
+    padding-top: 25px;
+    margin-left: 485px;
+}
+.brandcard{
+    text-align: center;
+    width: 100px;
+    padding-left: 38px;
+    margin-right: 65px;
+    margin-top: 35px;
+}
+.brandcard img{
+    width: 100%;
+}
+.brandcard h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 1vw;
+    margin-top: -7px;
+    padding-bottom: 30px;
+}
+
+
+.catagoy{
+    display: inline-flex;
+    background: #020202;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.catagorycard{
+    background: #DC2626;
+    width: 300px;
+    padding: 15px;
+    margin-right: 50px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+.catagorycard h3{
+    font-family: "Tapestry", serif;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px;
+}
+.catagorycard img{
+    width: 100%;
+    border-radius: 15px;
+}
+.catagorycard button{
+    font-family: "IBM Plex Serif", serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    color: #fff;
+    box-shadow: 2px 2px 5px #000;
+    margin: 15px 0px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.catagorycard button:hover{
+    background: #DC2626;
+    color: #000;
+    transition: 2s;
+}
+
+
+.footer{
+    width: 100%;
+    display: inline-flex;
+    background: #fff;
+    margin-top: 30px;
+    padding: 30px 0px;
+    border-bottom: 1px solid #e0f8dd;
+}
+.footermenu{
+    width: 30%;
+    text-align: center;
+}
+.footermenu h4{
+     font-family: "Arizonia", cursive;
+    font-size: 2.4vw;
+    margin: 20px;
+    font-style: italic;
+}
+.footermenu h5{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 1.5vw;
+    margin: 10px;
+}
+.footermenu ul{
+    list-style: none;
+}
+.footermenu ul li{
+     font-family: "Tapestry", serif;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+.footermenu input{
+    padding: 10px;
+    width: 55%;
+    margin-right: 15px;
+    margin-left: -30px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: rgb(120, 14, 14);
+    background: #d2ddf9;
+    border-radius: 7px;
+}
+.footermenu button{
+    padding: 8px;
+    width: 35%;
+    border-radius: 20px;
+    background: #DC2626;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+}
+
+.footerr{
+    width: 100%;
+    background: #fff;
+    margin: 0px;
+    padding: 20px 0px;
+}
+.footermenuu{
+    
+}
+.footermenuu h6{
+    text-align: center;
+    font-size: 1.3vw;
+}
